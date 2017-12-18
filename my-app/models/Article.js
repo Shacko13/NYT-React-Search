@@ -17,10 +17,6 @@ const ArticleSchema = new Schema({
 			date: 	{
 				type: 		Date,
 				required: 	false
-			},
-			comments: [{
-					type: Schema.ObjectId,
-					ref : 'Comment'
 			}]
 })
 
